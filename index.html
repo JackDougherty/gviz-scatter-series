@@ -35,7 +35,7 @@
       ]);
            var chart = new google.visualization.ScatterChart(
               document.getElementById('visualization'));
-          chart.draw(data, {title: 'Interactive Scatter Chart, with three data series, and names in tooltip, via Google Visualization API',
+          chart.draw(data, {title: 'Interactive Scatter Chart, with three data series, and names in tooltip (float mouse over points to view), via Google Visualization API',
                             width: 600, height: 600,
                             vAxis: {title: "Percent Minority", minValue: 0, titleTextStyle: {color: "black"},gridlines : {count:3}},
                             hAxis: {title: "Percent Poverty", minValue: 0, titleTextStyle: {color: "black"},gridlines : {count:3}},
@@ -53,5 +53,7 @@
         <p>Google Visualization API interactive scatter chart with 3 data series and text tooltip</p>
         <p class="view"><a href="https://github.com/JackDougherty/gviz-scatter-series">View the Project on GitHub <small>JackDougherty/gviz-scatter-series</small></a></p>
     <div id="visualization" style="width: 600px; height: 600px;"></div>
+    <p>See if iframe of GitHub code appears here</p>
+    <iframe src="https://github.com/JackDougherty/gviz-scatter-series/gviz-scatter-series.html"></iframe>iframe>
   </body>
 </html>
