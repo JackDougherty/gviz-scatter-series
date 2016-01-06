@@ -1,10 +1,14 @@
 gviz-scatter-series
 ===================
 
-Use this template to create a custom interactive scatter chart (to visualize relationship between X-Y data), which draws data from a Google Sheet, with options for multiple data series/legend and data labels in the text tooltip pop-up. Uses Google Visualization API. 
+Use this template to create a custom interactive scatter chart (to visualize relationship between X-Y data), which draws data from a Google Sheet, with options for multiple data series/legend and data labels in the text tooltip pop-up. Uses Google Visualization API.
 
-## Demo 
-http://jackdougherty.github.io/gviz-scatter-series/
+## Demos
+-http://jackdougherty.github.io/gviz-scatter-series/index.html
+
+-http://jackdougherty.github.io/gviz-scatter-series/income-test.html
+
+-http://jackdougherty.github.io/gviz-scatter-series/ctvoices-race-freelunch.html
 
 ## Requirements:
 
@@ -25,7 +29,7 @@ Two options to edit and host file on the live web:
 - If you have a free GitHub account, you can "fork" (aka copy) my repository to your account, delete my "gh-pages" branch,  create your own "gh-pages" branch, and edit the index.html file to host on the web.
 - Or learn how to freely <a href="https://googledrive.com/host/0B716ywBKT84AMXBENXlnYmJISlE/GoogleDriveHosting.html">host webpages on Google Drive</a>. Click this GitHub repository "download" button to obtain a zip file of the index.html page and upload to your Google Drive public host folder (or copy and paste its contents into your own index.html file). Edit as instructed in the code comments and make public on the live web.  
 
-Learn more about Visualizations at Google Code Playground 
+Learn more about Visualizations at Google Code Playground
 https://code.google.com/apis/ajax/playground/
 and
 Google Visualization Scatter Chart configuration page https://developers.google.com/chart/interactive/docs/gallery/scatterchart
